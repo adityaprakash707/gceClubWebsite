@@ -1,0 +1,178 @@
+@font-face {
+  font-family: adi;
+  src: url(vermin_vibes_out_of_ink.ttf);
+}
+
+.college-info-text{
+color: white;
+font-family: adi;
+font-size: 100px;
+justify-content: center;
+text-background: red;
+}
+
+.club{
+font-family: Brush Script MT;
+font-size: 100px;
+
+}
+
+
+.social-media-text{
+font-family: papyrus;
+font-size: 125px
+}
+
+.clubinfo-text{
+font-family: Brush Script MT;
+font-size: 60px
+}
+
+
+body {
+  background: #f5f6f7;
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 0;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #1b1b32;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+nav {
+  width: 50%;
+  max-width: 300px;
+  height: 50px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+nav > ul > li {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:hover {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
+
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
+
+
+.collage{
+  width: auto;
+  height: 500px;
+background-color: rgb(125,67,98);
+background-image: url(gce-main.jpg);
+color:rgb(0,0,0);
+text-align: center;
+display: center;
+}
+
+.club-info{
+  width: auto;
+  height: 950px;
+  background-color:#45567d;
+background-image: url(dark.jpg);
+color:white;
+text-align: center;
+font-size: 40px;
+display: flex;
+}
+
+
+.social-media{
+  width: auto;
+  height: 600px;
+  background-color:#303841;
+color:white;
+text-align: center;
+font-size: 40px;
+display: flex;
+}
+
+
+body {
+  background: #f5f6f7;
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 0;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.address{
+margin: 20px 20px 20px 20px;
+
+}
+
+.contact-links img {
+margin: 50px 50px 50px 50px;
+  gap: 160px;
+  width:50px;
+  height: 50px;
+  justify-content: center;
+  
+}
